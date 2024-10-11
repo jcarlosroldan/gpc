@@ -1,0 +1,1 @@
+Object.defineProperty(navigator, 'globalPrivacyControl', {get: () => true, set: () => {}});
