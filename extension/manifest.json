@@ -1,6 +1,6 @@
 {
 	"name": "GPC enabler",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"manifest_version": 3,
 	"homepage_url": "https://jcarlosroldan.com/",
 	"description": "Enable Global Privacy Control on Google Chrome (non-official).",
@@ -11,8 +11,7 @@
 	},
 	"permissions": [
 		"declarativeNetRequest",
-		"declarativeNetRequestWithHostAccess",
-		"storage"
+		"declarativeNetRequestWithHostAccess"
 	],
 	"host_permissions": ["<all_urls>"],
 	"content_scripts": [
